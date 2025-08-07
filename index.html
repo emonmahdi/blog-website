@@ -25,7 +25,161 @@
 <body>
 
     <!-- Header -->
+    <!-- Header Top -->
+    <header class="custom-header text-white py-3">
+        <div class="container">
+            <div class="row align-items-center text-center text-md-start">
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-start gap-3">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-12 col-md-4 text-center">
+                    <a href="#" class="navbar-brand logo-text">
+                        <span>Blog</span><span class="highlight">Sphere</span>
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end gap-2">
+                    <button class="btn btn-outline-light btn-sm">Login</button>
+                    <button class="btn btn-light text-primary btn-sm fw-semibold">Create Account</button>
+                </div>
+            </div>
+        </div>
+    </header>
 
+    <!-- Bottom Sticky Nav -->
+    <nav class="header-bottom sticky-top shadow-sm">
+        <div class="container d-flex align-items-center justify-content-between py-2">
+            <!-- Hamburger for Mobile -->
+            <button class="btn d-md-none" id="menu-toggle">
+                <i class="fas fa-bars fs-5"></i>
+            </button>
+
+            <!-- Main Menu -->
+            <ul class="nav d-none d-md-flex flex-wrap mb-0">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Technology</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">AI & ML</a></li>
+                        <li><a class="dropdown-item" href="#">Web Dev</a></li>
+                        <li><a class="dropdown-item" href="#">Gadgets</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Design</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">UX/UI</a></li>
+                        <li><a class="dropdown-item" href="#">Inspiration</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#" class="nav-link">Lifestyle</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Travel</a></li>
+            </ul>
+
+            <!-- Search Bar -->
+            <form class="d-flex search-box align-items-center" role="search">
+                <input type="search" class="form-control form-control-sm search-input" id="searchInput"
+                    placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-primary btn-sm" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Mobile Slide Menu -->
+    <div id="mobileMenu" class="mobile-menu">
+        <button id="closeMenu" class="btn-close btn-close-white ms-auto m-3"></button>
+        <ul class="list-unstyled ps-2 pt-4 pe-4">
+            <li><a href="#">Home</a></li>
+            <li>
+                <a href="#">Technology</a>
+                <ul class="submenu">
+                    <li><a href="#">AI & ML</a></li>
+                    <li><a href="#">Web Dev</a></li>
+                    <li><a href="#">Gadgets</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Design</a>
+                <ul class="submenu">
+                    <li><a href="#">UX/UI</a></li>
+                    <li><a href="#">Inspiration</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lifestyle</a></li>
+            <li><a href="#">Travel</a></li>
+        </ul>
+    </div>
+
+    <section>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus iure debitis maxime libero rem repellat
+                animi itaque aperiam consequatur at! Ipsa odio quas magnam, eligendi tenetur voluptatum voluptates
+                laudantium minus qui, non quasi at maxime impedit velit quisquam eaque ut vitae possimus aspernatur
+                omnis dolorem doloremque id magni! Sit saepe, illo vel ex omnis voluptates corrupti quod cupiditate
+                voluptatem odit officiis laborum dolores reiciendis illum quas excepturi repudiandae deserunt
+                repellendus eum? Incidunt culpa numquam reprehenderit eaque sunt, possimus illo quis sapiente eveniet
+                alias fugit adipisci magnam voluptate earum vero at? Fugit dolorem tempore rerum doloremque molestiae
+                aspernatur mollitia error amet.</p>
+        </div>
+    </section>
 
     <!-- Footer End -->
 
@@ -37,6 +191,9 @@
 
     <!-- Custom JS -->
     <script src="assets/js/script.js"></script>
+
+    <!-- Responsive Menu JS -->
+    <script src="assets/js/responsiveMenu.js"></script>
 
 
 </body>
