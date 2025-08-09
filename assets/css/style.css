@@ -555,9 +555,13 @@ ul li {
   border-radius: 12px;
   z-index: 1;
 }
-.main-title-heading {
+.main-title-heading a {
   font-size: 48px !important;
   line-height: 50px;
+  color: #fff;
+}
+.main-title-heading a:hover {
+  color: var(--primary);
 }
 .overlay-content {
   position: absolute;
@@ -569,6 +573,12 @@ ul li {
 .overlay-content p,
 .overlay-content h2 {
   margin-bottom: 10px;
+}
+.overlay-content h2 a {
+  color: #fff;
+}
+.overlay-content h2 a:hover {
+  color: var(--primary);
 }
 .overlay-content .meta {
   font-size: 0.75rem;
@@ -767,7 +777,7 @@ ul li {
   letter-spacing: 0.5px;
 }
 
-.more-news-section .blog-title {
+.more-news-section .blog-title a {
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -775,7 +785,7 @@ ul li {
   line-height: 1.4;
 }
 
-.more-news-section .blog-title:hover {
+.more-news-section .blog-title a:hover {
   color: var(--primary);
   cursor: pointer;
   transition: color 0.3s ease;

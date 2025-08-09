@@ -9,7 +9,9 @@
   --muted: #adb5bd;
   --transition: 0.3s;
 }
-
+.blog-details-section p {
+  text-align: justify;
+}
 .badge-custom {
   background-color: var(--primary);
   font-size: 0.8rem;
